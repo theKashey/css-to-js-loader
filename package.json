@@ -1,6 +1,6 @@
 {
   "name": "css-to-js-loader",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "webpack loader to transform css to CSS-IN-JS API.",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/theKashey/css-to-js-webpack-plugin.git"
+    "url": "git+https://github.com/theKashey/css-to-js-loader.git"
   },
   "keywords": [
     "css-in-js",
@@ -16,14 +16,19 @@
     "css",
     "styled-components"
   ],
-  "author": "",
-  "license": "ISC",
+  "author": "Anton Korzunov (thekashey@gmail.com)",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/theKashey/css-to-js-webpack-plugin/issues"
   },
   "homepage": "https://github.com/theKashey/css-to-js-webpack-plugin#readme",
   "dependencies": {
-    "postcss-to-js": "0.0.2",
-    "loader-utils": "^1.0.3"
+    "loader-utils": "^1.0.3",
+    "postcss-to-js": "0.0.4"
+  },
+  "peerDependencies": {
+    "babel-core": "*",
+    "babel-plugin-transform-es2015-modules-commonjs": "*",
+    "babel-plugin-transform-es2015-template-literals": "*"
   }
 }
