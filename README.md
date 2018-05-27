@@ -2,7 +2,7 @@ CSS-in-JS? Not yet.
 
 Most of libraries just create stylesheets for you. From pure CSS or pure JS code.
  
-[![NPM](https://nodei.co/npm/css-to-js-loader.png?downloads=true&stars=true)](https://nodei.co/npm/css-to-js-loader/) 
+[![NPM](https://nodei.co/npm/css-to-js-loader.png?downloads=true&stars=true)](https://nodei.co/npm/css-to-js-loader/) [![Greenkeeper badge](https://badges.greenkeeper.io/theKashey/css-to-js-loader.svg)](https://greenkeeper.io/) 
  
 # CSS-to-JS
 This webpack loader actually __converts CSS code__ into the __JavaScript__.
